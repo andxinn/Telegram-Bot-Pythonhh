@@ -6,8 +6,8 @@ import requests
 from dotenv import load_dotenv
 load_dotenv()
 
-TOKEN = os.getenv('TOKEN')
-BASE_URL = f'https://api.telegram.org/bot{TOKEN}'
+TOKEN = os.getenv('5969791845:AAGKekWddUIhq7fGi4cRaAyQ7nx-OLpFXUY')
+BASE_URL = f'https://api.telegram.org/bot{5969791845:AAGKekWddUIhq7fGi4cRaAyQ7nx-OLpFXUY}'
 
 
 def send_message(chat_id: int, message: str) -> bool:
